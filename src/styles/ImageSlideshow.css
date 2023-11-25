@@ -1,0 +1,54 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.image-slideshow {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Set a fixed height or adjust as needed */
+  overflow: hidden;
+}
+
+.image-slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #61dafb;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.nav-button:hover {
+  background-color: #217dbb;
+}
+
+@media (max-width: 576px) {
+  .image-slideshow {
+    height: 50vh;
+  }
+
+  .nav-button {
+    font-size: 14px;
+  }
+}

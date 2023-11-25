@@ -1,0 +1,121 @@
+/* src/components/Signup.css */
+.signup-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form {
+    width: 100%;
+  }
+  
+  .signup-form h1 {
+    text-align: center;
+  }
+  
+  .signup-form p {
+    text-align: center;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .signup-form label input {
+    margin-right: 5px;
+  }
+  
+  .signup-form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    margin-top: 8px;
+    display: block;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .signup-form input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .signup-form hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .signup-form input[type="checkbox"] {
+    margin-bottom: 16px;
+  }
+  
+  .signup-form a {
+    color: dodgerblue;
+  }
+  
+  .signup-form .clearfix {
+    overflow: auto;
+  }
+  
+  .signup-form button {
+    float: left;
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .signup-form button:hover {
+    opacity: 1;
+  }
+  
+  .signupbtn {
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  .cancelbtn {
+    background-color: #f44336;
+    color: white;
+  }
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    height: auto;
+  }
+  
+  
+  .modal-content {
+    /* Add styles for the modal content */
+    max-width: 400px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

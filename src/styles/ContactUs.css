@@ -1,0 +1,31 @@
+.background_image2 {
+    background-image: url("C:\Users\Winte\assignment3\public\Cat_Dango.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+  
+  .two_columns {
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap to the next line on smaller screens */
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px; /* Add some spacing between columns */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the columns */
+    border-radius: 5px;
+  }
+  
+  .map-container {
+    width: 100%; /* Ensure the map container takes up the full width */
+  }
+  
+  .gmap-frame {
+    height: 65vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden; /* Hide any overflow content (e.g., on smaller screens) */
+  }
+  

@@ -1,0 +1,37 @@
+.purchase-box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .purchase-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px; /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .purchase-image {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  
+  .purchase-details {
+    flex-grow: 1;
+  }
+  
+  .my-purchases-heading {
+    /* Style for "My Purchases" heading */
+    text-align: left;
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Optional: Add some spacing between headings */
+  }
+  
+  .total-amount {
+    /* Style for "Total amt is: $56.34" */
+    text-align: right;
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Optional: Add some spacing between headings */
+  }

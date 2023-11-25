@@ -1,0 +1,39 @@
+
+footer {
+    background-color: rgb(241, 144, 163);
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  #copy_right {
+    margin-left: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 576px) {
+    .footer-items {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-column {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  
+    #copy_right {
+      margin-left: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  

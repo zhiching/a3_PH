@@ -1,0 +1,86 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    text-align: center;
+    flex: 1;
+    margin: 15px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add a smooth transition effect for background and box shadow */
+    border: 2px solid transparent; /* Set a transparent border initially */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+    border-radius: 8px;
+  }
+  
+  #logo1 {
+    width: 15%;
+  }
+  
+  #logo2 {
+    width: 15%;
+  }
+  
+  #logo3 {
+    width: 15%;
+  }
+  
+  #Logo_Text {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .flex-item:hover {
+    background-color: rgb(8, 161, 212);
+  }
+  #paragraphid {
+    font-size: 18px;
+    color: grey;
+  }
+  
+  #learnMoreid {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .flex-item:hover #Logo_Text {
+    color: white;
+  }
+  
+  .flex-item:hover #paragraphid {
+    color: white;
+  }
+  
+  .flex-item:hover #learnMoreid {
+    color: white;
+  }
+
+  .spacing{
+    margin-bottom: 285px;
+  }
+  
+  @media (max-width: 576px) {
+    .flex-item {
+      text-align: center;
+      margin-top: 5px;
+      flex-basis: calc(33.33% - 10px); /* Two items per row on smaller screens */
+    }
+    #Logo_Text {
+      font-size: 16px;
+    }
+    #paragraphid {
+      font-size: 14px;
+      color: grey;
+    }
+    .spacing{
+      margin-bottom: 100px;
+    }
+    
+  }
+  
