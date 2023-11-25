@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9edd3714.css",
+    "main.js": "/static/js/main.53aff88a.js",
+    "static/media/Cat_Dango.jpg": "/static/media/Cat_Dango.43be646c03aaaeda586e.jpg",
+    "static/media/About_bg_image.jpg": "/static/media/About_bg_image.184abbbef7e5b6ae74e6.jpg",
+    "static/media/Cat_2_Orange.jpg": "/static/media/Cat_2_Orange.045d124532ed08148d67.jpg",
+    "index.html": "/index.html",
+    "main.9edd3714.css.map": "/static/css/main.9edd3714.css.map",
+    "main.53aff88a.js.map": "/static/js/main.53aff88a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9edd3714.css",
+    "static/js/main.53aff88a.js"
+  ]
+}
